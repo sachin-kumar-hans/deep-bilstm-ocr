@@ -253,4 +253,4 @@ with gr.Blocks(title="Deep BiLSTM OCR Scanner") as demo:
         outputs=[out_image, out_text]
     )
 
-demo.launch(share=True, show_api=False, quiet=True)
+demo.launch(show_api=False, quiet=True)
